@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('https://images.pexels.com/photos/1069798/pexels-photo-1069798.jpeg?auto=compress&cs=tinysrgb&h=350');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 45px 0 30px 40px;
+  font-family: Open Sans, sans-serif;
+}
+
+
+.contactForm {
+  margin: 20px 0 80px 0;
+
+}
+
+input {
+  height: 40px;
+  width:435px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+  display: inline;
+  margin-right: 20px;
+  display: block;
+  background-color: #f2f2f2;
+}
+
+.contactItem {
+  clear: both;
+  background-color: #f2f2f2;
+  height: 120px;
+  width: 435px;
+  margin-bottom: 10px;
+  padding-top: 40px;
+  border-radius: 7px;
+}
+
+.contactItem:nth-child(4n+1) {
+  border: 3px solid #008000;
+}
+
+.contactItem:nth-child(5n+2) {
+  border: 3px solid #ffff00;
+}
+
+.contactItem:nth-child(6n+3) {
+  border: 3px solid #8f3d3d;
+}
+
+.contactLabel {
+   font-size: 1.1rem;
+   margin-left: 20px;
+   padding-bottom: 7px;
+}
+
+.contactItem {
+  color: #000;
+}
+
+
+.contactEmail {
+  text-decoration: none;
+  color: #000;
+}
+
+.contactImage {
+  margin-left: 10px;
+  margin-right: 15px;
+  height: 70px;
+  float: left;
+}
+
+button {
+  height: 50px;
+  max-width: 100%;
+  width: 440px;
+  font-size: 1rem;
+  font-weight: 900;
+  border-radius: 7px;
+  outline: none;
+  display: block;
+  background-color: #8f3d3d;
+  text-shadow: 1.2px 0 1.2px #808080;
+
+}
+
